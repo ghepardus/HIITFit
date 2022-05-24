@@ -3,12 +3,12 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
       TabView {
-          Text("Welcome")
-          Text("Exercise 1")
-          Text("Exercise 2")
+          WelcomeView()
+          ForEach(0 ..< 4) { index in
+              ExerciseView(index: index)
+          }
       }
       .tabViewStyle(PageTabViewStyle())
-      .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
   }
 }
 
