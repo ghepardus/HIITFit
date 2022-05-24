@@ -20,6 +20,8 @@
 		E29B943F283CB931005E4F99 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B943E283CB931005E4F99 /* WelcomeView.swift */; };
 		E29B9441283CB938005E4F99 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B9440283CB938005E4F99 /* ExerciseView.swift */; };
 		E29B9444283CC8F6005E4F99 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B9443283CC8F6005E4F99 /* HeaderView.swift */; };
+		E29B9447283CD07F005E4F99 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B9446283CD07F005E4F99 /* RatingView.swift */; };
+		E29B944B283CE65A005E4F99 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29B944A283CE65A005E4F99 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E29B943E283CB931005E4F99 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		E29B9440283CB938005E4F99 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		E29B9443283CC8F6005E4F99 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E29B9446283CD07F005E4F99 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		E29B944A283CE65A005E4F99 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,9 @@
 				CD30C925251474DC0049DB93 /* ContentView.swift */,
 				E29B943E283CB931005E4F99 /* WelcomeView.swift */,
 				E29B9440283CB938005E4F99 /* ExerciseView.swift */,
+				E29B9446283CD07F005E4F99 /* RatingView.swift */,
 				E29B9443283CC8F6005E4F99 /* HeaderView.swift */,
+				E29B944A283CE65A005E4F99 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,9 +217,11 @@
 				E29B9441283CB938005E4F99 /* ExerciseView.swift in Sources */,
 				E29B943F283CB931005E4F99 /* WelcomeView.swift in Sources */,
 				CD30C926251474DC0049DB93 /* ContentView.swift in Sources */,
+				E29B9447283CD07F005E4F99 /* RatingView.swift in Sources */,
 				CD30C93F25147A8C0049DB93 /* DateExtension.swift in Sources */,
 				CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */,
 				CD30C94025147A8C0049DB93 /* ImageExtension.swift in Sources */,
+				E29B944B283CE65A005E4F99 /* HistoryView.swift in Sources */,
 				E29B9444283CC8F6005E4F99 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
