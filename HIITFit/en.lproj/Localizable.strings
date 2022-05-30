@@ -22,7 +22,8 @@
 "Squat" = "Squat";
 
 /* begin exercise / mark as finished */
-"Start/Done" = "Start/Done";
+"Start Exercise" = "Start Exercise";
+"Done" = "Done";
 
 /* exercise */
 "Step Up" = "Step Up";
