@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  HIITFit
+
+  Created by Mario Severino on 30/05/22.
+  Copyright © 2022 Ray Wenderlich. All rights reserved.
+*/
+
+/* exercise */
+"Burpee" = "Burpee";
+
+/* invitation to exercise */
+"Get Fit" = "Get Fit";
+
+/* invitation */
+"Get Started" = "Get Started";
+
+/* view user activity */
+"History" = "History";
+
+/* exercise */
+"Squat" = "Squat";
+
+/* begin exercise / mark as finished */
+"Start/Done" = "Start/Done";
+
+/* exercise */
+"Step Up" = "Step Up";
+
+/* warm up stretch */
+"Sun Salute" = "Sun Salute";
+
+/* greeting */
+"Welcome" = "Welcome";
