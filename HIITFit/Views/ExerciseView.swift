@@ -17,9 +17,6 @@ struct ExerciseView: View {
             VStack {
                 HeaderView(selectedTab: $selectedTab, titleText: Exercise.exercises[index].exerciseName)
                     .padding(.bottom)
-                
-                
-                print("asdlkjqlej")
                 if let url = Bundle.main.url(forResource: Exercise.exercises[index].videoName, withExtension: "mp4") {
                     VideoPlayer(player: AVPlayer(url: url))
                         .frame(height: geometry.size.height * 0.45)
