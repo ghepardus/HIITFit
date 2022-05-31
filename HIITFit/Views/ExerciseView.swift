@@ -3,6 +3,9 @@ import AVKit
 
 struct ExerciseView: View {
     
+    @State private var showSuccess = false
+    @State private var showHistory = false
+    @State private var rating = 0
     @Binding var selectedTab: Int
     
     let index: Int
@@ -29,16 +32,28 @@ struct ExerciseView: View {
                 HStack(spacing: 150) {
                     Button(NSLocalizedString("Start Exercise", comment: "Start exercise")) { }
                     Button(NSLocalizedString("Done", comment: "End exercise")) {
-                        selectedTab = lastExercise ? 9 : selectedTab + 1
+                        if lastExercise {
+                            showSuccess.toggle()
+                        } else {
+                            selectedTab += 1
+                        }
+                    }
+                    .sheet(isPresented: $showSuccess) {
+                        SuccessView(selectedTab: $selectedTab)
                     }
                 }
                 .font(.title3)
                 .padding()
-                RatingView()
+                RatingView(rating: $rating)
                     .padding()
                 Spacer()
-                Button(NSLocalizedString("History", comment: "view user activity")) { }
-                    .padding(.bottom)
+                Button(NSLocalizedString("History", comment: "view user activity")) {
+                    showHistory.toggle()
+                }
+                .sheet(isPresented: $showHistory) {
+                    HistoryView(showHistory: $showHistory)
+                }
+                .padding(.bottom)
             }
         }
         
