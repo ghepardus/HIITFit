@@ -27,6 +27,7 @@
 		E2E7D624283D2CF200F315A7 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E7D623283D2CF200F315A7 /* HistoryStore.swift */; };
 		E2E7D6262844A57B00F315A7 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E7D6252844A57B00F315A7 /* HistoryStoreDevData.swift */; };
 		E2E7D6292844B11E00F315A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2E7D62B2844B11E00F315A7 /* Localizable.strings */; };
+		E2E7D62E284601B100F315A7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E7D62D284601B100F315A7 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E2E7D6252844A57B00F315A7 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		E2E7D62A2844B11E00F315A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E2E7D62C2844B17D00F315A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2E7D62D284601B100F315A7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				CD30C925251474DC0049DB93 /* ContentView.swift */,
+				E2E7D62D284601B100F315A7 /* TimerView.swift */,
 				E29B943E283CB931005E4F99 /* WelcomeView.swift */,
 				E29B9440283CB938005E4F99 /* ExerciseView.swift */,
 				E29B9446283CD07F005E4F99 /* RatingView.swift */,
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E7D62E284601B100F315A7 /* TimerView.swift in Sources */,
 				E29B9441283CB938005E4F99 /* ExerciseView.swift in Sources */,
 				E29B943F283CB931005E4F99 /* WelcomeView.swift in Sources */,
 				E29B944D283D115B005E4F99 /* SuccessView.swift in Sources */,
